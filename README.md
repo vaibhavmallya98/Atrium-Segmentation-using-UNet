@@ -16,6 +16,11 @@ To improve the generalization capability of the model, several data augmentation
 2. Scaling: Zooming in and out to simulate different perspectives.
 3. Rotation: Rotating the slices to make the model invariant to orientation.
 4. Elastic Transformation: Applying random elastic deformations to simulate realistic variations in the anatomy.
+   
+The sample augmentations have been visualized below
+![Augmentations](https://github.com/vaibhavmallya98/Atrium-Segmentation-using-UNet/assets/45683079/b487d96d-9a73-45a6-8ff5-de39973bb83e)
+
+
 
 ### Model Architecture
 The segmentation is achieved using a UNet architecture, which is well-suited for medical image segmentation tasks due to its ability to capture both local and global context through its contracting and expansive paths. The UNet architecture consists of the following components:
