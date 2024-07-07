@@ -29,10 +29,6 @@ The segmentation is achieved using a UNet architecture, which is well-suited for
 2. Bottleneck: A series of convolutional layers without pooling to act as a bridge between the encoder and decoder.
 3. Decoder: Consists of upsampling layers followed by convolutional layers to reconstruct the segmented mask from the encoded features.
 
-The model architecture used for this task has been depicted below. The dimensions of the input image used is 256 x 256 x 1 as each slice is a gray scale image. 
-![UNet_Architecture](https://github.com/vaibhavmallya98/Atrium-Segmentation-using-UNet/assets/45683079/43b94a15-dcf6-402e-86b0-9027f8cb5c69)
-
-
 
 ### Loss Function and Optimizer 
 1. Loss Function: Binary Cross Entropy with Logits Loss (BCEWithLogitsLoss) is used to measure the discrepancy between the predicted and actual masks.
